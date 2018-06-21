@@ -1,0 +1,111 @@
+/*
+* @Author: chengbaosheng
+* @Date:   2017-08-15 18:37:07
+* @Last Modified by:   chengbaosheng
+* @Last Modified time: 2017-09-08 16:37:31
+*/
+
+.pd10 {
+  padding: 10px;
+}
+
+.pdt10 {
+  padding-top: 10px;
+}
+
+.pab10 {
+  padding-bottom: 10px;
+}
+
+.pdl10 {
+  padding-left: 10px;
+}
+
+.pdr10 {
+  padding-right: 10px;
+}
+
+.mg10 {
+  margin: 10px;
+}
+
+.mgt10 {
+  margin-top: 10px;
+}
+
+.mgb10 {
+  margin-bottom: 10px;
+}
+
+.mgl10 {
+  margin-left: 10px;
+}
+
+.mgr10 {
+  margin-right: 10px;
+}
+
+.pd20 {
+  padding: 20px;
+}
+
+.pdt20 {
+  padding-top: 20px;
+}
+
+.pab20 {
+  padding-bottom: 20px;
+}
+
+.pdl20 {
+  padding-left: 20px;
+}
+
+.pdr20 {
+  padding-right: 20px;
+}
+
+.mg20 {
+  margin: 20px;
+}
+
+.mgt20 {
+  margin-top: 20px;
+}
+
+.mgb20 {
+  margin-bottom: 20px;
+}
+
+.mgl20 {
+  margin-left: 20px;
+}
+
+.mgr20 {
+  margin-right: 20px;
+}
+
+.font-red {
+  color: #F00;
+}
+
+.search-box {
+  height: 40px;
+  margin-top: 10px;
+}
+
+.action-link {
+  width: 100px;
+  text-align: center;
+}
+
+.detail-list {
+  font-size: 14px;
+  .detail-tit {
+    color: #07517A;
+  }
+}
+
+.tem-action-btn {
+  font-size: 18px;
+}

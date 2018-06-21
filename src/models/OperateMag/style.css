@@ -1,0 +1,124 @@
+/*
+* @Author: chengbaosheng
+* @Date:   2017-08-30 15:51:56
+* @Last Modified by:   chengbaosheng
+* @Last Modified time: 2017-09-09 19:08:13
+*/
+
+.pd10 {
+  padding: 10px;
+}
+
+.pdt10 {
+  padding-top: 10px;
+}
+
+.pab10 {
+  padding-bottom: 10px;
+}
+
+.pdl10 {
+  padding-left: 10px;
+}
+
+.pdr10 {
+  padding-right: 10px;
+}
+
+.mg10 {
+  margin: 10px;
+}
+
+.mgt10 {
+  margin-top: 10px;
+}
+
+.mgb10 {
+  margin-bottom: 10px;
+}
+
+.mgl10 {
+  margin-left: 10px;
+}
+
+.mgr10 {
+  margin-right: 10px;
+}
+
+.pd20 {
+  padding: 20px;
+}
+
+.pdt20 {
+  padding-top: 20px;
+}
+
+.pab20 {
+  padding-bottom: 20px;
+}
+
+.pdl20 {
+  padding-left: 20px;
+}
+
+.pdr20 {
+  padding-right: 20px;
+}
+
+.mg20 {
+  margin: 20px;
+}
+
+.mgt20 {
+  margin-top: 20px;
+}
+
+.mgb20 {
+  margin-bottom: 20px;
+}
+
+.mgl20 {
+  margin-left: 20px;
+}
+
+.mgr20 {
+  margin-right: 20px;
+}
+
+.state-col {
+  height: 26px;
+  line-height: 26px;
+  margin-top: 10px;
+  label {
+    color: rgba(86, 150, 203, 1);
+  }
+}
+
+.a-upload {
+  width: 100px;
+  text-align: center;
+  height: 30px;
+  line-height: 30px;
+  position: relative;
+  cursor: pointer;
+  color: #888;
+  background: #FFF;
+  border: 1px solid #DDD;
+  border-radius: 4px;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.a-upload input {
+  position: absolute;
+  font-size: 100px;
+  right: 0;
+  top: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  cursor: pointer;
+}
+
+.dis-upload {
+  color: red;
+}

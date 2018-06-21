@@ -1,0 +1,71 @@
+const BASE_URL = `/app`
+
+export const HOME = BASE_URL
+export const BASEINFOMAG = `${HOME}/BaseInfoMag`
+export const OPERATORMAG = `${HOME}/BaseInfoMag/OperatorMag`
+export const OPERATORDETAIL = `${HOME}/BaseInfoMag/OperatorMag/operatorDetail`
+export const OPERATOREDIT = `${HOME}/BaseInfoMag/OperatorMag/operatorEdit`
+export const OPERATORADD = `${HOME}/BaseInfoMag/OperatorMag/operatorAdd`
+export const SUBOPTORMAG = `${HOME}/BaseInfoMag/SubOptorMag`
+export const SUBOPTORDETAIL = `${HOME}/BaseInfoMag/SubOptorMag/subOptorDetail`
+export const SUBOPTORADD = `${HOME}/BaseInfoMag/SubOptorMag/subOptorAdd`
+export const SUBOPTOREDIT = `${HOME}/BaseInfoMag/SubOptorMag/subOptorEdit`
+export const SELLERMAG = `${HOME}/BaseInfoMag/SellerMag`
+export const SELLERDETAIL = `${HOME}/BaseInfoMag/SellerMag/sellerDetail`
+export const SELLEREDIT = `${HOME}/BaseInfoMag/SellerMag/sellerEdit`
+export const SELLERADD = `${HOME}/BaseInfoMag/SellerMag/sellerAdd`
+export const SHOPMAG = `${HOME}/BaseInfoMag/ShopMag`
+export const SHOPDETAIL = `${HOME}/BaseInfoMag/ShopMag/shopDetail`
+export const SHOPADD = `${HOME}/BaseInfoMag/ShopMag/shopAdd`
+export const SHOPEDIT = `${HOME}/BaseInfoMag/ShopMag/shopEdit`
+export const BASE_ACCOUNT_LIST = `${HOME}/BaseInfoMag/Account`
+export const BASE_ACCOUNT_DETAIL = `${HOME}/BaseInfoMag/Account/Detail`
+export const SCOPECONFIG = `${HOME}/BaseInfoMag/ScopeConfig`
+export const ESTATECONFIG = `${HOME}/BaseInfoMag/EstateConfig`
+export const MAINACCOUNTMAG = `${HOME}/user/MainAccountMag`
+export const MAINACCOUNTDETAIL = `${HOME}/user/MainAccountMag/mainAccountDetail`
+export const USER_CHANGE_LOG = `${HOME}/user/changelog`
+export const USER_ACCOUNT_LIST = `${HOME}/user/account`
+export const USER_ACCOUNT_DETAIL = `${HOME}/user/account/detail`
+export const USER_TRANSACTION_LIST = `${HOME}/user/transaction`
+export const USER_STARCOIN_LIST = `${HOME}/user/StarCoin`
+export const USER_TRANSACTION_DETAIL = `${HOME}/user/transaction/detail`
+export const USER_ORDER_LIST = `${HOME}/user/order`
+export const USER_ORDER_DETAIL = `${HOME}/user/order/detail`
+export const USER_ACCOUNTADJUST = `${HOME}/user/aAdjust`// 账户调整管理
+export const USER_STARCOINORDER = `${HOME}/user/StarCoinOrder` // 星球币兑换记录
+/* 红包管理 */
+export const REDENVELOPE_REDENVELOPES = `${HOME}/redEnvelope/redEnvelopes`// 红包发放记录列表
+export const REDENVELOPE_REDENVELOPES_DETAIL = `${HOME}/redEnvelope/redEnvelopes/detail`// 红包详情
+export const REDENVELOPE_ISSUANCEOFQUOTAS = `${HOME}/redEnvelope/issuanceOfQuotas`// 红包发放限额配置
+/* 运营管理 */
+export const ACCRECHARGE = `${HOME}/OperateMag/AccRecharge`
+export const ACCSTATE = `${HOME}/OperateMag/AccState`
+export const OPERATEMAG_WORKORDERMAG = `${HOME}/OperateMag/WorkOrderMag`// 工单管理
+export const OPERATEMAG_WORKORDERMAG_WITHDRAWALS = `${OPERATEMAG_WORKORDERMAG}/Withdrawals`// 工单管理／工单详情（提现）
+export const OPERATEMAG_WORKORDERMAG_RECHARGE = `${OPERATEMAG_WORKORDERMAG}/Recharge`// 工单管理／工单详情（充值）
+export const GREEN_PAYMENT = `${HOME}/OperateMag/GreenPayment`// 绿色代付授权
+/* 充值卡管理 */
+export const PREPAIDCARD_STORE = `${HOME}/prepaidCard/store` // 卡片库存管理
+export const PREPAIDCARD_STORE_ADD = `${HOME}/prepaidCard/store/add` // 卡片库存新增
+export const PREPAIDCARD_STORE_EDIT = `${HOME}/prepaidCard/store/edit` // 卡片库存修改
+export const PREPAIDCARD_STORE_DETIAL1 = `${HOME}/prepaidCard/store/detail1` // 卡片库存详情（未制卡、未入库状态）
+export const PREPAIDCARD_STORE_DETIAL2 = `${HOME}/prepaidCard/store/detail2` // 卡片库存详情（库存中、已投放状态）
+export const PREPAIDCARD_USE = `${HOME}/prepaidCard/use` // 卡片使用管理
+export const PREPAIDCARD_USE_DETAIL = `${HOME}/prepaidCard/use/detail` // 卡片使用管理详情
+/* 消费卡管理 */
+export const EXPENSECARD_STORE = `${HOME}/expenseCard/store` // 卡片库存管理
+export const EXPENSECARD_STORE_ADD = `${HOME}/expenseCard/store/add` // 卡片库存新增
+export const EXPENSECARD_STORE_EDIT = `${HOME}/expenseCard/store/edit` // 卡片库存修改
+export const EXPENSECARD_STORE_DETIAL1 = `${HOME}/expenseCard/store/detail1` // 卡片库存详情（未制卡、未入库状态）
+export const EXPENSECARD_STORE_DETIAL2 = `${HOME}/expenseCard/store/detail2` // 卡片库存详情（库存中、已投放状态）
+export const EXPENSECARD_USE = `${HOME}/expenseCard/use` // 卡片使用管理
+export const EXPENSECARD_USE_DETAIL = `${HOME}/expenseCard/use/detail` // 卡片使用管理详情
+/* 临时卡管理 */
+export const INTERIMCARD_STORE = `${HOME}/interimCard/store` // 卡片库存管理
+export const INTERIMCARD_STORE_ADD = `${HOME}/interimCard/store/add` // 卡片库存新增
+export const INTERIMCARD_STORE_EDIT = `${HOME}/interimCard/store/edit` // 卡片库存修改
+export const INTERIMCARD_STORE_DETIAL1 = `${HOME}/interimCard/store/detail1` // 卡片库存详情（未制卡、未入库状态）
+export const INTERIMCARD_STORE_DETIAL2 = `${HOME}/interimCard/store/detail2` // 卡片库存详情（库存中、已投放状态）
+export const INTERIMCARD_USE = `${HOME}/interimCard/use` // 卡片使用管理
+export const INTERIMCARD_USE_DETAIL = `${HOME}/interimCard/use/detail` // 卡片使用管理详情
